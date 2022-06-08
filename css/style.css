@@ -1,71 +1,196 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-*{
+* {
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
 
-nav{
+nav {
     background-color: #1CD1B0;
     width: 1024px;
     height: 38px;
     font-size: 15px;
-    position:absolute;
+    position: absolute;
     top: 0px;
     left: 0px;
 
 }
 
-.heroes{
+.descuentos {
+    position: absolute;
+    width: 111px;
+    height: 18px;
+    left: 10px;
+    top: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: black;
+
+}
+
+
+.heroes {
     background-color: #00669F;
+    position: absolute;
     width: 1024px;
     height: 101px;
-    top: 38px;
     left: 0px;
-    position: absolute;
+    top: 38px;
+
 }
 
-h1{
-    line-height: 47px;
+
+
+h1 {
+    position: absolute;
     width: 128px;
     height: 47px;
-    font-size:  40px;
-    position: absolute;
     left: 28px;
-    top: 66px;
+    top: 40px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
 
 
 }
 
-main{
-   
+main {}
 
-
-}
-
-h2{
+h2 {
     font-size: 30px;
 }
 
-p{
+p {
     font-size: 16px;
 }
 
 .batman {
     background-image: url('../img/baticueva.png');
+    position: absolute;
     width: 300px;
     height: 193px;
+    left: 32px;
+    top: 293px;
+}
+
+.corazon1 {
+    position: absolute;
+    left: 53px;
+    top: 310px;
+    ;
+}
+
+.cuadradoacirculo {
+    border-radius: 50%;
+}
+
+.batmancara {
+    position: absolute;
+    width: 120px;
+    height: 118px;
+    left: 122px;
+    top: 421px;
+}
+
+.cajabatmantexto {
+    position: absolute;
+    width: 300px;
+    height: 336px;
+    left: 32px;
+    top: 485px;
+}
+
+.corazon2 {
+    position: absolute;
+    left: 380px;
+    top: 310px;
+    ;
 }
 
 .harley {
     background-image: url('../img/harleybackground.png');
+    position: absolute;
     width: 300px;
     height: 193px;
+    left: 362px;
+    top: 293px;
 }
 
-footer{
+.harleycara {
+    position: absolute;
+    width: 120px;
+    height: 118px;
+    left: 451px;
+    top: 419px;
+}
+
+.cajaharleytexto {
+    position: absolute;
+    width: 300px;
+    height: 336px;
+    left: 362px;
+    top: 485px;
+}
+
+
+
+
+.batman1 {
+    background-image: url('../img/baticueva.png');
+    position: absolute;
+    width: 300px;
+    height: 193px;
+    left: 692px;
+    top: 294px;
+}
+
+.corazon3 {
+    position: absolute;
+    left: 710px;
+    top: 310px;
+    ;
+}
+
+.batmancara1 {
+    position: absolute;
+    width: 122px;
+    height: 120px;
+    left: 781px;
+    top: 420px;
+}
+
+.cajabatmantexto1 {
+    position: absolute;
+    width: 300px;
+    height: 336px;
+    left: 692px;
+    top: 486px;
+}
+
+
+
+
+
+
+.pie {
+
+    position: absolute;
+    width: 1024px;
+    height: 51px;
+    left: 0px;
+    top: 972px;
     background-color: #00669F;
-    width: 1024;
-    height: 51;
+
 }
 
+.pietexto {
+    position: absolute;
+    width: 337px;
+    height: 19px;
+    left: 16px;
+    top: 975px;
+    color: #FFF9F9;
+
+   
+    }
